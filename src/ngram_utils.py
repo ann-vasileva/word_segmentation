@@ -2,6 +2,9 @@ import math
 from collections import defaultdict
 
 def load_bigrams(filepath):
+    '''
+    count bigrams based on freqeunces precalculated from opencorpora
+    '''
     bigram_probs = defaultdict(float)
     total_count = 0
     with open(filepath, 'r', encoding='utf-8') as f:
@@ -18,6 +21,9 @@ def load_bigrams(filepath):
     return bigram_probs
 
 def load_unigrams(filepath):
+    '''
+    count unigrams based on freqeunces precalculated from opencorpora
+    '''
     unigram_probs = defaultdict(float)
     total_count = 0
     with open(filepath, 'r', encoding='utf-8') as f:
