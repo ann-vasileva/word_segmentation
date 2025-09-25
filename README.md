@@ -29,6 +29,7 @@
 ---
 
 ## Структура репозитория
+```
 word_segmentation/
 │
 ├── README.md                 
@@ -44,3 +45,4 @@ word_segmentation/
 │   ├── segmentation.py       # Алгоритм сегментации
 │   └── utils.py              # Работа с пунктуацией 
 └── pipeline.ipynb
+```
